@@ -1,6 +1,5 @@
 #include "geesespotter_lib.h"
 
-//part 1 - done
 char * createBoard(std::size_t xdim, std::size_t ydim);
 char * createBoard(std::size_t xdim, std::size_t ydim) { 
  
@@ -21,7 +20,6 @@ void hideBoard(char * board, std::size_t xdim, std::size_t ydim) {
     }
 }
 
-//done
 void cleanBoard(char * board);
 void cleanBoard(char * board) { 
    
@@ -29,7 +27,6 @@ void cleanBoard(char * board) {
     board = nullptr;
 }
 
-//done
 void printBoard(char * board, std::size_t xdim, std::size_t ydim);
 void printBoard(char * board, std::size_t xdim, std::size_t ydim) { 
 
@@ -47,7 +44,6 @@ void printBoard(char * board, std::size_t xdim, std::size_t ydim) {
     }
 } 
 
-//done
 int mark(char * board, std::size_t xdim, std::size_t ydim, std::size_t xloc, std::size_t yloc);
 int mark(char * board, std::size_t xdim, std::size_t ydim, std::size_t xloc, std::size_t yloc) { 
      
