@@ -11,7 +11,6 @@ char * createBoard(std::size_t xdim, std::size_t ydim) {
   return new_array; 
 }
 
-//done 
 void hideBoard(char * board, std::size_t xdim, std::size_t ydim);
 void hideBoard(char * board, std::size_t xdim, std::size_t ydim) { 
     
